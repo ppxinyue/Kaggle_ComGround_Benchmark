@@ -3,7 +3,12 @@
     "allow": [
       "WebSearch",
       "mcp__claude-code-guide__get_example",
-      "mcp__claude-code-guide__search_guide"
+      "mcp__claude-code-guide__search_guide",
+      "Bash(python scripts/test_task_definition.py -v)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import anthropic; import numpy; import sklearn; import dotenv; print\\('All dependencies already installed!'\\)\")",
+      "Bash(python:*)",
+      "Bash(conda install:*)"
     ]
   }
 }
