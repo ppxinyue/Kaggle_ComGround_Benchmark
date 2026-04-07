@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__claude-code-guide__get_example",
+      "mcp__claude-code-guide__search_guide"
+    ]
+  }
+}
