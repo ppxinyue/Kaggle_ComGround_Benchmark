@@ -24,44 +24,85 @@ import numpy as np
 # Configuration
 # =============================================================================
 
-DOMAINS = [
-    # Basic Cognitive (5 domains)
-    "Numbers", "Colors", "Shapes", "Directions", "Time",
+# ---------------------------------------------------------------------------
+# Domain taxonomy: 8 categories, 28 domains
+# Organized by the cognitive mechanism that supports tacit coordination.
+# Each domain has a culture_label: "strong" = needs US+China split;
+#                                   "weak"   = universal items suffice.
+# ---------------------------------------------------------------------------
 
-    # Social & Cultural (12 domains)
-    "Cities", "Countries", "Famous People", "Brands", "Foods", "Drinks",
-    "Holidays", "Sports", "Music", "Movies", "Animals", "Occupations",
+DOMAIN_CATEGORIES = {
+    "Perception": {
+        "domains": ["Colors", "Shapes", "Spatial Directions", "Extremes"],
+        "culture_label": "weak",
+        "mechanism": "Perceptual prototype; symmetry bias; spatial default",
+    },
+    "Symbolism": {
+        "domains": ["Numbers", "Time Anchors", "Emotions"],
+        "culture_label": "weak",
+        "mechanism": "Symbolic salience; roundness; temporal convention",
+    },
+    "Biology": {
+        "domains": ["Animals", "Plants", "Fruits", "Body Parts", "Senses"],
+        "culture_label": "weak",
+        "mechanism": "Biological prototype; familiarity; embodied centrality",
+    },
+    "Artifacts": {
+        "domains": ["Tools", "Clothing", "Vehicles", "Furniture"],
+        "culture_label": "weak",
+        "mechanism": "Functional typicality; affordance salience",
+    },
+    "Places": {
+        "domains": ["Rooms", "Public Places", "Institutions", "Geographic Entities"],
+        "culture_label": "mixed",   # Public Places + Geographic Entities are strong
+        "mechanism": "Spatial routine; meeting-point scripts; collective prominence",
+    },
+    "Norms": {
+        "domains": ["Family Roles", "Occupations", "Social Norms"],
+        "culture_label": "mixed",   # Social Norms is strong
+        "mechanism": "Role prototype; prestige salience; normative scripts",
+    },
+    "Culture": {
+        "domains": [
+            "Holidays", "Food", "Drinks",
+            "Famous People", "Media", "Brands",
+        ],
+        "culture_label": "strong",
+        "mechanism": "Collective memory; ritual salience; media exposure",
+    },
+    "Digital": {
+        "domains": ["Digital Platforms", "Internet Culture"],
+        "culture_label": "strong",
+        "mechanism": "Platform familiarity; interface conventions",
+    },
+}
 
-    # Biological World (3 domains)
-    "Plants", "Body Parts", "Senses",
-
-    # Objects & Functions (4 domains)
-    "Tools", "Vehicles", "Clothing", "Furniture",
-
-    # Abstract Concepts (5 domains)
-    "Emotions", "Weather", "Seasons", "Arts", "Books",
-
-    # Space & Location (3 domains)
-    "Rooms", "Buildings", "Locations",
-
-    # Social Roles (1 domain)
-    "Family Roles",
-
-    # Digital World (2 domains)
-    "Digital", "Tech",
-
-    # Nature (1 domain)
-    "Nature",
-]
+# Flat list of all 31 domains (preserves category order)
+DOMAINS = []
+for _cat_info in DOMAIN_CATEGORIES.values():
+    DOMAINS.extend(_cat_info["domains"])
 
 CULTURE_TYPES = Literal["us", "china", "universal"]
 LANGUAGE_TYPES = Literal["en", "zh"]
 
-# Domains that require culture balancing (US + China)
-CULTURE_SENSITIVE_DOMAINS = [
-    "Cities", "Countries", "Famous People", "Brands", "Foods", "Drinks",
-    "Holidays", "Sports", "Music", "Movies", "Animals", "Colors"
+# Domains with strong culture dependence → need US + China split
+STRONG_CULTURE_DOMAINS = [
+    # Places (mixed category)
+    "Public Places", "Geographic Entities",
+    # Norms (mixed category)
+    "Social Norms",
+    # Culture (all strong)
+    "Holidays", "Food", "Drinks",
+    "Famous People", "Media", "Brands",
+    # Digital (all strong)
+    "Digital Platforms", "Internet Culture",
 ]
+
+# Domains with weak culture dependence → universal items
+WEAK_CULTURE_DOMAINS = [d for d in DOMAINS if d not in STRONG_CULTURE_DOMAINS]
+
+# Backward-compatible alias
+CULTURE_SENSITIVE_DOMAINS = STRONG_CULTURE_DOMAINS
 
 
 # =============================================================================
@@ -97,6 +138,14 @@ class TacitCoordinationItem:
 # Generation Prompts
 # =============================================================================
 
+def _get_domain_info(domain: str) -> dict:
+    """Look up category and mechanism for a domain."""
+    for cat_name, cat_info in DOMAIN_CATEGORIES.items():
+        if domain in cat_info["domains"]:
+            return {"category": cat_name, "mechanism": cat_info["mechanism"]}
+    return {"category": "Unknown", "mechanism": ""}
+
+
 def get_generation_prompt(
     domain: str,
     culture: str,
@@ -122,10 +171,14 @@ def get_generation_prompt(
         "zh": "Generate in Chinese (Simplified)"
     }[language]
 
+    domain_info = _get_domain_info(domain)
+    mechanism_hint = domain_info["mechanism"]
+
     return f"""Generate {num_items} tacit coordination items for the "{domain}" domain.
 
 **Context**: {culture_instruction}
 **Language**: {language_instruction}
+**Coordination mechanism**: {mechanism_hint}
 
 **What is a tacit coordination item?**
 Two players must independently choose the SAME option from 4 choices to win.

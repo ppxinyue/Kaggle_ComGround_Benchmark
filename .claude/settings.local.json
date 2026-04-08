@@ -8,7 +8,14 @@
       "Bash(pip install:*)",
       "Bash(python -c \"import anthropic; import numpy; import sklearn; import dotenv; print\\('All dependencies already installed!'\\)\")",
       "Bash(python:*)",
-      "Bash(conda install:*)"
+      "Bash(conda install:*)",
+      "Bash(curl -s \"https://pypi.org/pypi/kaggle-benchmarks/json\")",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=kaggle-benchmarks\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Kaggle/kaggle-benchmarks/main/README.md\")",
+      "Bash(curl -s \"https://www.kaggle.com/benchmarks/tasks/new\")",
+      "Bash(curl -s \"https://api.github.com/repos/Kaggle/kaggle-benchmarks/contents\")",
+      "Bash(grep -E \"\\\\.md$|\\\\.txt$|docs\")",
+      "Bash(curl:*)"
     ]
   }
 }

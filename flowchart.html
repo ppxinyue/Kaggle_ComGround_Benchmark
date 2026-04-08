@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tacit Coordination Benchmark - 项目流程图</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    min-height: 100vh;
+    color: #e2e8f0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+  }
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  /* Phase sections */
+  .phase {
+    margin-bottom: 24px;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 20px 24px;
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(8px);
+  }
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .phase-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+  .phase-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .phase-time {
+    margin-left: auto;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    background: #1e293b;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+  .phase-body {
+    margin-left: 48px;
+  }
+  /* Colors per phase */
+  .phase-1 .phase-badge { background: #22d3ee; color: #0f172a; }
+  .phase-1 { border-color: #22d3ee33; }
+  .phase-2 .phase-badge { background: #818cf8; color: #0f172a; }
+  .phase-2 { border-color: #818cf833; }
+  .phase-3 .phase-badge { background: #a78bfa; color: #0f172a; }
+  .phase-3 { border-color: #a78bfa33; }
+  .phase-4 .phase-badge { background: #f472b6; color: #0f172a; }
+  .phase-4 { border-color: #f472b633; }
+
+  /* Mermaid overrides */
+  .mermaid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Stats grid */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .stat-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 14px 16px;
+    text-align: center;
+  }
+  .stat-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .stat-label {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 4px;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 0.85rem;
+    color: #94a3b8;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .legend-dot {
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Tacit Coordination Benchmark</h1>
+  <p class="subtitle">Kaggle Measuring Progress Toward AGI - Social Cognition Track &nbsp;|&nbsp; 720 Items &times; 2 Languages = 1440 Items</p>
+
+  <!-- Overall Stats -->
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-value" style="color:#22d3ee">36</div>
+      <div class="stat-label">Research Domains</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" style="color:#818cf8">720</div>
+      <div class="stat-label">Total Items</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" style="color:#a78bfa">1440</div>
+      <div class="stat-label">Bilingual Items (EN+ZH)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" style="color:#f472b6">5-6</div>
+      <div class="stat-label">Frontier Models</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" style="color:#fb923c">$20K</div>
+      <div class="stat-label">Prize</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" style="color:#34d399">Apr 16</div>
+      <div class="stat-label">Deadline</div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#22d3ee"></div>Phase 1: 数据生成</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#818cf8"></div>Phase 2: 任务实现</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div>Phase 3: 模型评估</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f472b6"></div>Phase 4: 分析写作</div>
+  </div>
+
+  <!-- ==================== PHASE 1 ==================== -->
+  <div class="phase phase-1">
+    <div class="phase-header">
+      <div class="phase-badge">1</div>
+      <div class="phase-title">Phase 1: 数据集生成与质量分析</div>
+      <div class="phase-time">Days 1-5 &nbsp;|&nbsp; Scripts: task_definition.py, generate_dataset.py, evaluate_dataset.py</div>
+    </div>
+    <div class="phase-body">
+      <div class="mermaid">
+flowchart TD
+    subgraph P1["Phase 1: Dataset Generation"]
+        direction TB
+
+        START((&#127919; Start)) --> CONFIG["&#9881; Config<br/>36 Domains<br/>12 Culture-Sensitive<br/>24 Universal"]
+
+        CONFIG --> SPLIT{"Culture Type?"}
+
+        SPLIT -->|Culture-Sensitive| CS["&#127760; US + China<br/>10 items each<br/>12 domains &times; 2 = 24 sets"]
+        SPLIT -->|Universal| UN["&#127760; Universal<br/>20 items each<br/>24 domains &times; 1 = 24 sets"]
+
+        CS --> GEN["&#129302; LLM Generation<br/>generate_dataset.py<br/>Anthropic API (Claude)"]
+        UN --> GEN
+
+        GEN --> PROMPT["&#128221; Prompt Template<br/>&#9888; NO leading language<br/>&#9888; NO focal_option<br/>Only: category + 4 options"]
+
+        PROMPT --> PARSE["&#128269; Parse &amp; Validate<br/>JSON parsing<br/>4 unique options<br/>No duplicates"]
+
+        PARSE --> SAVE["&#128190; Save Raw Data<br/>data/raw/{Domain}_{culture}_{lang}.json<br/>+ data/raw/all_items.json"]
+
+        SAVE --> EVAL_BRANCH{"evaluate_dataset.py"}
+
+        EVAL_BRANCH --> EMB["&#128200; Embedding Distance<br/>OpenAI text-embedding-3-large<br/>or local all-MiniLM-L6-v2"]
+        EVAL_BRANCH --> FREQ["&#128270; Google Frequency<br/>Custom Search API<br/>Search result counts"]
+
+        EMB --> METRICS["&#128202; Quality Metrics<br/>avg_distance, min_distance<br/>max_distance, most_isolated_idx"]
+        FREQ --> METRICS
+
+        METRICS --> FINAL1["&#128230; Output<br/>data/evaluated/*_evaluated.json<br/>All items kept (no filtering)"]
+    end
+
+    style START fill:#22d3ee,color:#0f172a
+    style FINAL1 fill:#0e7490,color:#fff
+    style P1 fill:none,stroke:#22d3ee33,stroke-width:2px
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PHASE 2 ==================== -->
+  <div class="phase phase-2">
+    <div class="phase-header">
+      <div class="phase-badge">2</div>
+      <div class="phase-title">Phase 2: Kaggle Benchmark 任务实现</div>
+      <div class="phase-time">Days 6-8 &nbsp;|&nbsp; Environment: kaggle-benchmarks</div>
+    </div>
+    <div class="phase-body">
+      <div class="mermaid">
+flowchart TD
+    subgraph P2["Phase 2: Task Implementation"]
+        direction TB
+
+        EVAL["&#128230; Evaluated Dataset<br/>720 items with metrics"] --> SETUP["&#9881; Setup kaggle-benchmarks<br/>pip install kaggle-benchmarks<br/>Create benchmark project"]
+
+        SETUP --> TASK["&#128221; Define Task<br/>Create task decorators<br/>@task annotation<br/>Metadata: domain, culture, lang"]
+
+        TASK --> PROMPT2["&#128172; Build Prompt<br/>Coordination game framing<br/>Options in RANDOMIZED order<br/>'Pick the same to win $1'"]
+
+        PROMPT2 --> ASSERT["&#9989; Assertions &amp; Validation<br/>Response must match option<br/>Handle edge cases<br/>Retry logic"]
+
+        ASSERT --> METADATA["&#128202; Metadata Tracking<br/>item_id, domain, culture<br/>response, option_order<br/>model, temperature"]
+
+        METADATA --> TEST["&#129513; Local Testing<br/>pilot_test.py<br/>Single domain validation<br/>Verify prompt/response flow"]
+
+        TEST --> READY["&#127775; Ready for Multi-Model Eval<br/>Packaged benchmark task"]
+    end
+
+    style EVAL fill:#818cf8,color:#0f172a
+    style READY fill:#4338ca,color:#fff
+    style P2 fill:none,stroke:#818cf833,stroke-width:2px
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PHASE 3 ==================== -->
+  <div class="phase phase-3">
+    <div class="phase-header">
+      <div class="phase-badge">3</div>
+      <div class="phase-title">Phase 3: 多模型评估</div>
+      <div class="phase-time">Days 9-11 &nbsp;|&nbsp; 5-6 Frontier Models, 100 calls/item</div>
+    </div>
+    <div class="phase-body">
+      <div class="mermaid">
+flowchart TD
+    subgraph P3["Phase 3: Multi-Model Evaluation"]
+        direction TB
+
+        BENCH["&#127775; Benchmark Task"] --> MODELS["&#129302; Frontier Models<br/>GPT-4o, Claude 3.5 Sonnet<br/>Gemini Pro, Llama 3<br/>Qwen 2.5, Mistral"]
+
+        MODELS --> LOOP["&#128260; Evaluation Loop<br/>For each model:<br/>&nbsp;&nbsp;For each of 720 items:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Call LLM 100 times<br/>&nbsp;&nbsp;&nbsp;&nbsp;Randomize option order"]
+
+        LOOP --> COLLECT["&#128202; Collect Responses<br/>100 responses per item<br/>Record chosen option<br/>Track option order seen"]
+
+        COLLECT --> CALC1["&#128200; Model Coordination Rate<br/>Pairwise agreement among 100 calls<br/>sum&#40;matches&#41; / &#40;100 &times; 99 / 2&#41;<br/>Per-item coordination rate"]
+
+        COLLECT --> CALC2["&#128200; Model-Human Alignment<br/>mode&#40;model_choices&#41; vs<br/>mode&#40;human_choices&#41;<br/>Binary match per item"]
+
+        CALC1 --> AGG["&#128202; Aggregate Metrics<br/>&#128204; Per-domain avg coordination<br/>&#128204; Per-culture &#40;US vs China&#41;<br/>&#128204; Per-language &#40;EN vs ZH&#41;<br/>&#128204; Inter-model agreement"]
+        CALC2 --> AGG
+
+        AGG --> STATS["&#128200; Statistical Testing<br/>Significance tests<br/>Confidence intervals<br/>Effect sizes"]
+
+        STATS --> RESULTS["&#128230; Evaluation Results<br/>data/results/<br/>model_metrics.json<br/>per_item_results.json"]
+    end
+
+    style BENCH fill:#a78bfa,color:#0f172a
+    style RESULTS fill:#6d28d9,color:#fff
+    style P3 fill:none,stroke:#a78bfa33,stroke-width:2px
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PHASE 4 ==================== -->
+  <div class="phase phase-4">
+    <div class="phase-header">
+      <div class="phase-badge">4</div>
+      <div class="phase-title">Phase 4: 分析与提交</div>
+      <div class="phase-time">Days 12-14 &nbsp;|&nbsp; 1500-word submission</div>
+    </div>
+    <div class="phase-body">
+      <div class="mermaid">
+flowchart TD
+    subgraph P4["Phase 4: Analysis &amp; Submission"]
+        direction TB
+
+        RES["&#128230; Evaluation Results"] --> ANALYSIS["&#128269; Failure Pattern Analysis<br/>Why do models disagree?<br/>Cultural blind spots<br/>Language effects"]
+
+        RES --> VIZ["&#128202; Visualizations<br/>Heatmaps: domain &times; model<br/>Bar charts: coordination rates<br/>Radar: cultural dimensions<br/>Confusion: model agreement matrix"]
+
+        ANALYSIS --> INSIGHTS["&#128161; Key Findings<br/>Discriminatory power &#40;30-70%&#41;<br/>Domain variance ranking<br/>Cultural gap analysis<br/>Novel LLM insights"]
+
+        VIZ --> INSIGHTS
+
+        INSIGHTS --> WRITE["&#128221; Write Submission<br/>1500 words<br/>Structure: Intro &#8594; Method &#8594; Results &#8594; Discussion<br/>Include key figures"]
+
+        WRITE --> ENTITY["&#127968; Create Kaggle Entity<br/>Register benchmark<br/>Upload dataset + code<br/>Create competition page"]
+
+        ENTITY --> SUBMIT((&#127942; Submit!))
+    end
+
+    style RES fill:#f472b6,color:#0f172a
+    style SUBMIT fill:#be185d,color:#fff
+    style P4 fill:none,stroke:#f472b633,stroke-width:2px
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== DATA FLOW OVERVIEW ==================== -->
+  <div class="phase" style="border-color:#475569;">
+    <div class="phase-header">
+      <div class="phase-badge" style="background:#64748b;color:#0f172a;">&#9776;</div>
+      <div class="phase-title">端到端数据流总览</div>
+    </div>
+    <div class="phase-body">
+      <div class="mermaid">
+flowchart LR
+    subgraph INPUT["&#128193; Input"]
+        ENV[".env<br/>API Keys"]
+        CFG["task_definition.py<br/>36 Domains Config"]
+    end
+
+    subgraph GEN["&#129302; Generation"]
+        LLM["LLM API<br/>&#129302; Claude"]
+        RAW["Raw Items<br/>720 items<br/>category + 4 options"]
+    end
+
+    subgraph EVAL["&#128200; Evaluation"]
+        EMB2["Embedding<br/>Distances"]
+        FREQ2["Google<br/>Frequency"]
+        SCORED["Scored Items<br/>+ metrics"]
+    end
+
+    subgraph BENCH2["&#129513; Benchmark"]
+        TASK2["Kaggle Task<br/>Randomized<br/>Options"]
+    end
+
+    subgraph MODELS2["&#129302; Models"]
+        M["GPT-4o<br/>Claude<br/>Gemini<br/>Llama<br/>Qwen<br/>Mistral"]
+    end
+
+    subgraph OUT["&#128230; Output"]
+        MET["Coordination<br/>Rates"]
+        ALN["Human<br/>Alignment"]
+        PAPER["&#128221; Paper<br/>1500 words"]
+    end
+
+    ENV --> LLM
+    CFG --> LLM
+    LLM --> RAW
+    RAW --> EMB2
+    RAW --> FREQ2
+    EMB2 --> SCORED
+    FREQ2 --> SCORED
+    SCORED --> TASK2
+    TASK2 --> M
+    M --> MET
+    M --> ALN
+    MET --> PAPER
+    ALN --> PAPER
+
+    style INPUT fill:#1e3a5f,stroke:#3b82f6
+    style GEN fill:#1e3f5f,stroke:#22d3ee
+    style EVAL fill:#2d1f5e,stroke:#818cf8
+    style BENCH2 fill:#2d1f5e,stroke:#a78bfa
+    style MODELS2 fill:#3d1f5e,stroke:#c084fc
+    style OUT fill:#4a1942,stroke:#f472b6
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== DOMAIN BREAKDOWN ==================== -->
+  <div class="phase" style="border-color:#475569;">
+    <div class="phase-header">
+      <div class="phase-badge" style="background:#64748b;color:#0f172a;">&#128218;</div>
+      <div class="phase-title">36 研究领域分布</div>
+    </div>
+    <div class="phase-body">
+      <div class="mermaid">
+flowchart TD
+    subgraph DOMAINS["36 Research Domains"]
+        direction TB
+
+        CAT1["&#129504; Basic Cognitive<br/>5 domains &bull; 100 items"]
+        CAT2["&#127758; Social &amp; Cultural<br/>12 domains &bull; 240 items"]
+        CAT3["&#127793; Biological World<br/>3 domains &bull; 80 items"]
+        CAT4["&#128295; Objects &amp; Functions<br/>4 domains &bull; 80 items"]
+        CAT5["&#127912; Abstract Concepts<br/>5 domains &bull; 100 items"]
+        CAT6["&#127968; Space &amp; Location<br/>3 domains &bull; 60 items"]
+        CAT7["&#128101; Social Roles<br/>1 domain &bull; 40 items"]
+        CAT8["&#128187; Digital World<br/>2 domains &bull; 40 items"]
+        CAT9["&#127754; Nature<br/>1 domain &bull; 20 items"]
+
+        CAT1 --- D1["Numbers, Colors, Shapes<br/>Directions, Time"]
+        CAT2 --- D2["Cities, Countries, People<br/>Brands, Foods, Drinks<br/>Holidays, Sports, Music<br/>Movies, Animals, Occupations"]
+        CAT3 --- D3["Plants, Body Parts, Senses"]
+        CAT4 --- D4["Tools, Vehicles<br/>Clothing, Furniture"]
+        CAT5 --- D5["Emotions, Weather<br/>Seasons, Arts, Books"]
+        CAT6 --- D6["Rooms, Buildings, Locations"]
+        CAT7 --- D7["Family Roles"]
+        CAT8 --- D8["Digital, Tech"]
+        CAT9 --- D9["Nature"]
+
+        TOTAL["&#127775; Total: 36 domains &bull; 720 items &times; 2 languages = 1440"]
+    end
+
+    style TOTAL fill:#0e7490,color:#fff
+    style DOMAINS fill:none,stroke:#334155,stroke-width:2px
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'dark',
+  themeVariables: {
+    primaryColor: '#1e3a5f',
+    primaryTextColor: '#e2e8f0',
+    primaryBorderColor: '#3b82f6',
+    lineColor: '#64748b',
+    secondaryColor: '#1e293b',
+    tertiaryColor: '#0f172a',
+    fontFamily: 'Segoe UI, system-ui, sans-serif',
+    fontSize: '13px',
+    nodeBorder: '#475569',
+    mainBkg: '#1e3a5f',
+    clusterBkg: '#1e293b33',
+    clusterBorder: '#334155',
+    edgeLabelBackground: '#1e293b',
+  },
+  flowchart: {
+    useMaxWidth: true,
+    htmlLabels: true,
+    curve: 'basis',
+    padding: 16,
+    nodeSpacing: 30,
+    rankSpacing: 40,
+  }
+});
+</script>
+</body>
+</html>
