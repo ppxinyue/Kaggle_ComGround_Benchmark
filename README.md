@@ -6,7 +6,7 @@
 
 **ComGround** is a benchmark for evaluating whether large language models (LLMs) share the *common ground* that underpins human social cognition -- the shared knowledge, beliefs, and cultural salience that enable communication and coordination.
 
-> Submitted to **Kaggle Measuring Progress Toward AGI -- Social Cognition Track** ($20,000 prize).
+> Submitted to **Kaggle Measuring Progress Toward AGI -- Social Cognition Track** ($20,000 prize, under review stage).
 
 ---
 
@@ -215,7 +215,7 @@ MIT License
 
 **ComGround** 是一个用于评估大语言模型（LLM）是否具备人类社会认知核心能力——*共同基础*（common ground）的基准测试。共同基础是支撑人际沟通与协作的共享知识、信念和文化显著性。
 
-> 本项目提交至 **Kaggle Measuring Progress Toward AGI -- 社会认知赛道**（奖金 $20,000）。
+> 本项目提交至 **Kaggle Measuring Progress Toward AGI -- 社会认知赛道**（奖金 $20,000，结果暂未公布）。
 
 ---
 
