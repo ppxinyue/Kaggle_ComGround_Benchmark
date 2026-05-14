@@ -1,0 +1,21 @@
+id,context,speaker_utterance,question,option_a,option_b,option_c,correct_answer
+1,"a red apple, a green apple, a yellow banana",The one that is crunchy and sweet.,What does A most likely refer to?,red apple,green apple,green banana,A
+2,"a blue mug, a white vase, a blue plate",The thing that I drink coffee from.,What does A most likely refer to?,blue mug,white vase,blue plate,A
+3,"a book, a piece of paper, a notebook",I need something specifically designed for taking notes in class.,What does A most likely refer to?,small book,large book,small notebook,C 
+4,"a glass bottle, a plastic bottle, a metal cup",The one that is fragile.,What does A most likely refer to?,glass bottle,plastic bottle,metal cup,A
+5,"a black pen, a red pen, a yellow marker",I use that one to correct mistakes.,What does A most likely refer to?,black pen,red pen,black marker,B
+6,"a leather sofa, a metal chair, a plastic table",The one I usually sit on to relax is more comfortable.,What does A most likely refer to?,leather sofa,metal chair,plastic table,A
+7,"a yellow banana, a green banana, a yellow lemon",The ripe one is ready to eat.,What does A most likely refer to?,yellow banana,green banana,yellow lemon,A
+8,"a silver spoon, a golden spoon, a silver fork",The one that looks expensive.,What does A most likely refer to?,silver spoon,golden spoon,silver fork,B
+9,"a round plate, a square plate, a round bowl",I want the flat surface with straight edges for serving.,What does A most likely refer to?,round plate,square plate,round bowl,B
+10,"a cup of ice tea, a cup of room-temperature coffee, a cup of boiling water",The one that keeps my hands warm but doesn't make them uncomfortable to hold.,What does A most likely refer to?,ice tea,room-temperature coffee,boiling water,B
+11,"a pair of sneakers, a pair of slippers, a pair of boots  ",I'm wearing something that I can wear outside in bad weather that also provides good support.,What does A most likely refer to?,sneakers,slippers,boots,C
+12,"a desk lamp, a flashlight, a table fan",I want something that can brighten a dark room without needing me to hold it.,What does A most likely refer to?,desk lamp,flashlight,fan,A
+13,"a soup spoon, a dinner fork, a butter knife",I need the utensil that can hold liquid.,What does A most likely refer to?,soup spoon ,dinner fork ,butter knife,A
+14,"a backpack, a rolling suitcase, a shopping bag",I can carry several things hands-free when I'm taking this.,What does A most likely refer to?,backpack,rolling suitcase,shopping bag,A
+15,"a frying pan, a ceramic bowl, a cutting board",I need something that can go on the stove and has a handle for cooking.,What does A most likely refer to?,frying pan,ceramic bowl,cutting board,A
+16,"a bath towel, a raincoat, a wool blanket",I need something made for drying my body that is soft and absorbent.,What does A most likely refer to?,raincoat,wool blanket ,bath towel ,C
+17,"a pillow, a seat cushion, a folded blanket",I need something to support my head when I'm sleeping.,What does A most likely refer to?,seat cushion,folded blanket,pillow ,C
+18,"a refrigerator, a microwave, an oven mitt",I want the appliance that keeps food cold and runs continuously in the kitchen.,What does A most likely refer to?,microwave,refrigerator ,oven mitt,B
+19,"a hardcover book, a magazine, a notebook  ",I need something with empty pages that I can write in and carry easily.,What does A most likely refer to?,hardcover book,notebook,magazine,B
+20,"a ceramic mug, a paper cup, a glass tumbler  ",I need something that keeps my drink warm longer and doesn't get soft when filled.,What does A most likely refer to?,ceramic mug,paper cup,glass tumbler,A

@@ -15,7 +15,27 @@
       "Bash(curl -s \"https://www.kaggle.com/benchmarks/tasks/new\")",
       "Bash(curl -s \"https://api.github.com/repos/Kaggle/kaggle-benchmarks/contents\")",
       "Bash(grep -E \"\\\\.md$|\\\\.txt$|docs\")",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(grep -c '\\\\\\\\\\\\\\\\section' writings/samples/CK_benchmark.tex)",
+      "Bash(grep -c '\\\\\\\\\\\\\\\\subsection' writings/samples/CK_benchmark.tex)",
+      "Bash(grep -c '\\\\\\\\\\\\\\\\paragraph' writings/samples/CK_benchmark.tex)",
+      "Bash(pdflatex -interaction=nonstopmode CK_benchmark.tex)",
+      "Bash(bibtex CK_benchmark)",
+      "Bash(ls writings/figures/*.png)",
+      "Bash(grep -A2 \"\\\\\\\\\\\\\\\\bibitem\" CK_benchmark.bbl)",
+      "Bash(grep -oP '\\\\\\\\cite\\\\{[^}]+\\\\}' /d/ppXinyue/2026_Kaggle/writings/samples/CK_benchmark.tex)",
+      "Bash(grep -oP '@\\\\w+\\\\{\\(\\\\K[^,]+\\)' /d/ppXinyue/2026_Kaggle/writings/samples/CK_benchmark.bib)",
+      "Bash(ls:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(python3:*)",
+      "Bash(where drawio:*)",
+      "Bash(where inkscape:*)",
+      "Bash(npx:*)",
+      "Bash(taskkill //F //IM AcroRd32.exe)",
+      "Bash(taskkill //F //IM Acrobat.exe)",
+      "Bash(taskkill //F //IM FoxitReader.exe)",
+      "Bash(taskkill //F //IM SumatraPDF.exe)"
     ]
   }
 }

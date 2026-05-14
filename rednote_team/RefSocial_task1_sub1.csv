@@ -1,0 +1,81 @@
+id,context,speaker_utterance,question,option_a,option_b,option_c,correct_answer,difficulty
+1,"a striped shirt, a plain shirt, a striped jacket",I like the striped one.,What does A most likely refer to?,striped shirt,plain shirt ,striped jacket ,A,easy
+2,"a wooden chair, a metal chair, a wooden table",I¡¯ll take the wooden one.,What does A most likely refer to?,wooden table,metal chair,wooden chair,C,easy
+3,"a small suitcase, a large suitcase, a small backpack",I¡¯m going with the small one.,What does A most likely refer to?,large suitcase,small backpack,small suitcase,C,easy
+4,"a blue notebook, a red notebook, a blue folder",I need the blue one.,What does A most likely refer to?,blue folder,blue notebook,red notebook,B,easy
+5,"a glass bottle, a plastic bottle, a glass cup",I¡¯ll grab the glass one.,What does A most likely refer to?,glass cup,glass bottle,plastic bottle,B,easy
+6,"a round plate, a square plate, a round tray",I¡¯ll use the round one.,What does A most likely refer to?,round plate,round tray,square plate,A,easy
+7,"a black pen, a blue pen, a black marker",I¡¯ll take the black one.,What does A most likely refer to?,blue pen,black pen,black marker,B,easy
+8,"a tall glass, a short glass, a tall bottle",I want the tall one.,What does A most likely refer to?,tall glass,short glass,tall bottle,A,easy
+9,"a heavy book, a light book, a heavy box",I¡¯ll pick the heavy one.,What does A most likely refer to?,light book,heavy book,heavy box,B,easy
+10,"a soft pillow, a firm pillow, a soft blanket",I prefer the soft one.,What does A most likely refer to?,firm pillow,soft pillow,soft blanket,B,easy
+11,"a silver spoon, a wooden spoon, a silver fork",Pass me the silver one.,What does A most likely refer to?,wooden spoon,silver spoon,silver fork,B,easy
+12,"a red mug, a white mug, a red bowl",I¡¯ll take the red one.,What does A most likely refer to?,white mug,red mug,red bowl,B,easy
+13,"a thick book, a thin book, a thick folder",I need the thick one.,What does A most likely refer to?,thin book,thick book,thick folder,B,easy
+14,"a green towel, a blue towel, a green mat",Use the green one.,What does A most likely refer to?,green mat,blue towel,green towel,C,easy
+15,"a long candle, a short candle, a long ruler",I¡¯ll take the long one.,What does A most likely refer to?,short candle,long ruler,long candle,C,easy
+16,"a white plate, a black plate, a white tray",Bring me the white one.,What does A most likely refer to?,white plate,black plate,white tray,A,easy
+17,"a striped sock, a plain sock, a striped scarf",I want the striped one.,What does A most likely refer to?,plain sock,striped scarf,striped sock,C,easy
+18,"a clear jar, a blue jar, a clear cup",I¡¯ll use the clear one.,What does A most likely refer to?,blue jar,clear jar,clear cup,B,easy
+19,"a square pillow, a round pillow, a square cushion",Pick the square one.,What does A most likely refer to?,round pillow,square cushion,square pillow,C,easy
+20,"a leather wallet, a cloth wallet, a leather pouch",I¡¯ll take the leather one.,What does A most likely refer to?,cloth wallet,leather wallet,leather pouch,B,easy
+21,"a large suitcase, a small suitcase, a large backpack",I¡¯ll take the suitcase.,What does A most likely refer to?,large backpack,large suitcase,small suitcase,B,easy
+22,"a red apple, a green apple, a red peach",I¡¯ll take the apple.,What does A most likely refer to?,red peach,red apple,green apple,B,easy
+23,"a tall glass, a short glass, a tall bottle",I¡¯ll take the glass.,What does A most likely refer to?,tall glass,short glass,tall bottle,A,easy
+24,"a blue notebook, a red notebook, a blue folder",I need the notebook.,What does A most likely refer to?,blue notebook,red notebook,blue folder,A,easy
+25,"a thick book, a thin book, a thick folder",I¡¯ll take the book.,What does A most likely refer to?,thick folder,thick book,thin book,B,easy
+26,"a black pen, a blue pen, a black marker",I want the pen.,What does A most likely refer to?,black pen,black marker,blue pen,A,easy
+27,"a wooden chair, a metal chair, a wooden table",I¡¯ll take the chair.,What does A most likely refer to?,metal chair,wooden chair,wooden table,B,easy
+28,"a round plate, a square plate, a round tray",I¡¯ll use the plate.,What does A most likely refer to?,round plate,square plate,round tray,A,easy
+29,"a silver spoon, a wooden spoon, a silver fork",Pass me the spoon.,What does A most likely refer to?,silver fork,silver spoon,wooden spoon,B,easy
+30,"a clear jar, a blue jar, a clear cup",I¡¯ll take the jar.,What does A most likely refer to?,clear jar,blue jar,clear cup,A,easy
+31,"a striped shirt, a plain shirt, a striped jacket",I want the shirt.,What does A most likely refer to?,striped shirt,striped jacket,plain shirt,A,easy
+32,"a soft pillow, a firm pillow, a soft blanket",I¡¯ll take the pillow.,What does A most likely refer to?,soft blanket,firm pillow,soft pillow,C,easy
+33,"a white plate, a black plate, a white tray",I need the plate.,What does A most likely refer to?,white tray,black plate,white plate,C,easy
+34,"a long candle, a short candle, a long ruler",I¡¯ll grab the candle.,What does A most likely refer to?,long candle,long ruler,short candle,A,easy
+35,"a green towel, a blue towel, a green mat",I¡¯ll take the towel.,What does A most likely refer to?,green towel,green mat,blue towel,A,easy
+36,"a square table, a round table, a square desk",I want the table.,What does A most likely refer to?,square table,round table,square desk,A,easy
+37,"a leather wallet, a cloth wallet, a leather pouch",I¡¯ll take the wallet.,What does A most likely refer to?,cloth wallet,leather wallet,leather pouch,B,easy
+38,"a large pizza, a medium pizza, a large cake",I¡¯ll take the pizza.,What does A most likely refer to?,large cake,medium pizza,large pizza,C,easy
+39,"a metal spoon, a plastic spoon, a metal fork",Pass me the spoon.,What does A most likely refer to?,metal fork,plastic spoon,metal spoon,C,easy
+40,"a clear bottle, a colored bottle, a clear glass",I¡¯ll take the bottle.,What does A most likely refer to?,clear glass,colored bottle,clear bottle,C,easy
+1,"a red apple, a green apple, a yellow banana",The one that is crunchy and sweet.,What does A most likely refer to?,red apple,green apple,green banana,A,medium
+2,"a blue mug, a white vase, a blue plate",The thing that I drink coffee from.,What does A most likely refer to?,blue mug,white vase,blue plate,A,medium
+3,"a book, a piece of paper, a notebook",I need something specifically designed for taking notes in class.,What does A most likely refer to?,small book,large book,small notebook,C ,medium
+4,"a glass bottle, a plastic bottle, a metal cup",The one that is fragile.,What does A most likely refer to?,glass bottle,plastic bottle,metal cup,A,medium
+5,"a black pen, a red pen, a yellow marker",I use that one to correct mistakes.,What does A most likely refer to?,black pen,red pen,black marker,B,medium
+6,"a leather sofa, a metal chair, a plastic table",The one I usually sit on to relax is more comfortable.,What does A most likely refer to?,leather sofa,metal chair,plastic table,A,medium
+7,"a yellow banana, a green banana, a yellow lemon",The ripe one is ready to eat.,What does A most likely refer to?,yellow banana,green banana,yellow lemon,A,medium
+8,"a silver spoon, a golden spoon, a silver fork",The one that looks expensive.,What does A most likely refer to?,silver spoon,golden spoon,silver fork,B,medium
+9,"a round plate, a square plate, a round bowl",I want the flat surface with straight edges for serving.,What does A most likely refer to?,round plate,square plate,round bowl,B,medium
+10,"a cup of ice tea, a cup of room-temperature coffee, a cup of boiling water",The one that keeps my hands warm but doesn't make them uncomfortable to hold.,What does A most likely refer to?,ice tea,room-temperature coffee,boiling water,B,medium
+11,"a pair of sneakers, a pair of slippers, a pair of boots  ",I'm wearing something that I can wear outside in bad weather that also provides good support.,What does A most likely refer to?,sneakers,slippers,boots,C,medium
+12,"a desk lamp, a flashlight, a table fan",I want something that can brighten a dark room without needing me to hold it.,What does A most likely refer to?,desk lamp,flashlight,fan,A,medium
+13,"a soup spoon, a dinner fork, a butter knife",I need the utensil that can hold liquid.,What does A most likely refer to?,soup spoon ,dinner fork ,butter knife,A,medium
+14,"a backpack, a rolling suitcase, a shopping bag",I can carry several things hands-free when I'm taking this.,What does A most likely refer to?,backpack,rolling suitcase,shopping bag,A,medium
+15,"a frying pan, a ceramic bowl, a cutting board",I need something that can go on the stove and has a handle for cooking.,What does A most likely refer to?,frying pan,ceramic bowl,cutting board,A,medium
+16,"a bath towel, a raincoat, a wool blanket",I need something made for drying my body that is soft and absorbent.,What does A most likely refer to?,raincoat,wool blanket ,bath towel ,C,medium
+17,"a pillow, a seat cushion, a folded blanket",I need something to support my head when I'm sleeping.,What does A most likely refer to?,seat cushion,folded blanket,pillow ,C,medium
+18,"a refrigerator, a microwave, an oven mitt",I want the appliance that keeps food cold and runs continuously in the kitchen.,What does A most likely refer to?,microwave,refrigerator ,oven mitt,B,medium
+19,"a hardcover book, a magazine, a notebook  ",I need something with empty pages that I can write in and carry easily.,What does A most likely refer to?,hardcover book,notebook,magazine,B,medium
+20,"a ceramic mug, a paper cup, a glass tumbler  ",I need something that keeps my drink warm longer and doesn't get soft when filled.,What does A most likely refer to?,ceramic mug,paper cup,glass tumbler,A,medium
+1,"an apple, a peach, a watermelon",I like the fruit that is more juicy.,What does A most likely refer to?,apple,peach,watermelon,C,hard
+2,"a sofa, a small armchair, a wooden bench  ",I¡¯d go for the one that¡¯s more comfortable to relax on.,What does A most likely refer to?,sofa,armchair,wooden bench,A,hard
+3,"a small notebook, a large notebook, a tablet",I want something more convenient for quick notes.,What does A most likely refer to?,small notebook,large notebook,tablet,A,hard
+4," a slim laptop, a compact tablet, a lightweight e-reader ",I prefer something I can comfortably use for long reading without straining my eyes.,What does A most likely refer to?,laptop,tablet ,e-reader,C,hard
+5,"a pen, a pencil, a marker  ",I prefer the writing tool that comes with more colors.,What does A most likely refer to?,pen,pencil ,marker,C,hard
+6," a ceramic plate, a paper plate, a plastic plate  ",I¡¯d go with something I¡¯d normally use at home for meals.,What does A most likely refer to?,ceramic plate,plastic plate,paper plate,A,hard
+7,"a full-size keyboard, a compact keyboard, a touchscreen device",I need something that allows fast and accurate typing,What does A most likely refer to?,full-size keyboard,compact keyboard,touchscreen devicce,A,hard
+8,"a frying pan, a cooking pot, a baking tray ",I¡¯d pick the one I¡¯d most likely use if I wanted something quickly on the stove.,What does A most likely refer to?,frying pan,baking tray,cooking pot,B,hard
+9,"a tote bag, a handbag, a backpack",I need something that can carry my laptop and other items comfortably throughout the day.,What does A most likely refer to?,tote bag,handbag,backpack,C,hard
+10,"a coat, a denim jacket, a wool cardigan",I¡¯d pick something that keeps me warm when it gets really cold.,What does A most likely refer to?,coat ,denim jacket ,wool cardigan,C,hard
+11,"a cup of coffee, a sugary soda, a cup of black tea",I¡¯d go for the one that helps me stay alert,What does A most likely refer to?,coffee,soda,black tea,A,hard
+12,"running shoes, sneakers, sandals",I¡¯d go for the pair that feels more comfortable for walking long distances.,What does A most likely refer to?,running shoes,sneakers,sandals,B,hard
+13,"a bowl of rice, a sandwich, a small salad",I¡¯d go for the one that keeps me full longer.,What does A most likely refer to?,rice ,sandwhich,salad,A,hard
+14,"a mug, a tea cup, a gaiwan",I¡¯d go for the one that brings out the tea drinking experience more.,What does A most likely refer to?,mug,tea cup,gaiwan,C,hard
+15,"a pair of studio headphones, a pair of earbuds, a speaker",I¡¯d go for the option that lets me hear more detail in the sound.,What does A most likely refer to?,studio headphones,earbuds,speaker,A,hard
+16,"a chef¡¯s knife, a butter knife, a pair of scissors",I¡¯d choose the one that works better for cutting through something firm.,What does A most likely refer to?,chef's knife,butter knife,scissors,A,hard
+17,"a triangular structure, a square structure, a circular structure",I¡¯d choose the one that¡¯s less likely to deform when force is applied.,What does A most likely refer to?,triangular structure,square structure,circular structure,A,hard
+18,"a flashlight, a desk lamp, a ceiling light",I¡¯d pick the one that lights up a larger area.,What does A most likely refer to?,flashlight,desk lamp ,ceiling light,C,hard
+19,"a reusable container, a disposable box, a plastic bag",I¡¯d go for the one that works better if I need to use it many times.,What does A most likely refer to?,reusable container,disposable box,plastic bag,A,hard
+20,"a sponge, a cloth towel, a plastic sheet",I¡¯d pick the one that handles spills more effectively.,What does A most likely refer to?,cloth towel,sponge,plastic sheet,B,hard

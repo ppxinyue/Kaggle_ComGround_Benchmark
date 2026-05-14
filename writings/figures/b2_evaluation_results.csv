@@ -1,0 +1,411 @@
+item_id,domain,mechanism,culture,culture_type,language,category,coordination_rate
+Colors_universal_en_001,Colors,Perception,universal,weak,en,Primary Colors,0.42
+Colors_universal_en_002,Colors,Perception,universal,weak,en,Warm Colors,0.48
+Colors_universal_en_003,Colors,Perception,universal,weak,en,Cool Colors,0.52
+Colors_universal_en_004,Colors,Perception,universal,weak,en,Basic Shapes,0.32
+Colors_universal_en_005,Colors,Perception,universal,weak,en,Geometric Shapes,0.48
+Colors_universal_zh_001,Colors,Perception,universal,weak,zh,基本颜色,0.5
+Colors_universal_zh_002,Colors,Perception,universal,weak,zh,暖色,0.3
+Colors_universal_zh_003,Colors,Perception,universal,weak,zh,冷色,0.48
+Colors_universal_zh_004,Colors,Perception,universal,weak,zh,基本形状,0.58
+Colors_universal_zh_005,Colors,Perception,universal,weak,zh,几何图形,0.64
+Shapes_universal_en_001,Shapes,Perception,universal,weak,en,Compass Directions,0.38
+Shapes_universal_en_002,Shapes,Perception,universal,weak,en,Vertical Directions,0.38
+Shapes_universal_en_003,Shapes,Perception,universal,weak,en,Spatial Relations,0.3
+Shapes_universal_en_004,Shapes,Perception,universal,weak,en,Extremes of Size,0.54
+Shapes_universal_en_005,Shapes,Perception,universal,weak,en,Extremes of Temperature,0.46
+Shapes_universal_zh_001,Shapes,Perception,universal,weak,zh,方向,0.34
+Shapes_universal_zh_002,Shapes,Perception,universal,weak,zh,空间方位,0.54
+Shapes_universal_zh_003,Shapes,Perception,universal,weak,zh,大小极端,0.54
+Shapes_universal_zh_004,Shapes,Perception,universal,weak,zh,温度极端,0.54
+Shapes_universal_zh_005,Shapes,Perception,universal,weak,zh,速度,0.78
+Spatial Directions_universal_en_001,Spatial Directions,Perception,universal,weak,en,Extremes of Speed,0.52
+Spatial Directions_universal_en_002,Spatial Directions,Perception,universal,weak,en,Extremes of Weight,0.26
+Spatial Directions_universal_en_003,Spatial Directions,Perception,universal,weak,en,Light and Dark,0.62
+Spatial Directions_universal_en_004,Spatial Directions,Perception,universal,weak,en,Sound Levels,0.68
+Spatial Directions_universal_en_005,Spatial Directions,Perception,universal,weak,en,Texture Words,0.36
+Spatial Directions_universal_zh_001,Spatial Directions,Perception,universal,weak,zh,明暗程度,0.3
+Spatial Directions_universal_zh_002,Spatial Directions,Perception,universal,weak,zh,声音大小,0.48
+Spatial Directions_universal_zh_003,Spatial Directions,Perception,universal,weak,zh,质感,0.5
+Spatial Directions_universal_zh_004,Spatial Directions,Perception,universal,weak,zh,线条类型,0.62
+Spatial Directions_universal_zh_005,Spatial Directions,Perception,universal,weak,zh,亮度级别,0.3
+Extremes_universal_en_001,Extremes,Perception,universal,weak,en,Basic Patterns,0.62
+Extremes_universal_en_002,Extremes,Perception,universal,weak,en,Line Types,0.42
+Extremes_universal_en_003,Extremes,Perception,universal,weak,en,Depth Levels,0.42
+Extremes_universal_en_004,Extremes,Perception,universal,weak,en,Brightness Levels,0.62
+Extremes_universal_en_005,Extremes,Perception,universal,weak,en,Color Families,0.44
+Extremes_universal_zh_001,Extremes,Perception,universal,weak,zh,深浅程度,0.66
+Extremes_universal_zh_002,Extremes,Perception,universal,weak,zh,图案,0.46
+Extremes_universal_zh_003,Extremes,Perception,universal,weak,zh,颜色系列,0.6
+Extremes_universal_zh_004,Extremes,Perception,universal,weak,zh,光线,0.56
+Extremes_universal_zh_005,Extremes,Perception,universal,weak,zh,声音频率,0.56
+Numbers_universal_en_001,Numbers,Symbolism,universal,weak,en,Single Digit Numbers,0.34
+Numbers_universal_en_002,Numbers,Symbolism,universal,weak,en,Round Numbers,0.46
+Numbers_universal_en_003,Numbers,Symbolism,universal,weak,en,Lucky Numbers,0.36
+Numbers_universal_en_004,Numbers,Symbolism,universal,weak,en,Even Numbers,0.34
+Numbers_universal_en_005,Numbers,Symbolism,universal,weak,en,Odd Numbers,0.38
+Numbers_universal_zh_001,Numbers,Symbolism,universal,weak,zh,个位数字,0.74
+Numbers_universal_zh_002,Numbers,Symbolism,universal,weak,zh,整数,0.58
+Numbers_universal_zh_003,Numbers,Symbolism,universal,weak,zh,幸运数字,0.58
+Numbers_universal_zh_004,Numbers,Symbolism,universal,weak,zh,偶数,0.44
+Numbers_universal_zh_005,Numbers,Symbolism,universal,weak,zh,奇数,0.5
+Time Anchors_universal_en_001,Time Anchors,Symbolism,universal,weak,en,Times of Day,0.4
+Time Anchors_universal_en_002,Time Anchors,Symbolism,universal,weak,en,Days of the Week,0.42
+Time Anchors_universal_en_003,Time Anchors,Symbolism,universal,weak,en,Seasons,0.34
+Time Anchors_universal_en_004,Time Anchors,Symbolism,universal,weak,en,Months,0.5
+Time Anchors_universal_en_005,Time Anchors,Symbolism,universal,weak,en,Basic Emotions,0.64
+Time Anchors_universal_zh_001,Time Anchors,Symbolism,universal,weak,zh,一天中的时间,0.26
+Time Anchors_universal_zh_002,Time Anchors,Symbolism,universal,weak,zh,一周的日子,0.4
+Time Anchors_universal_zh_003,Time Anchors,Symbolism,universal,weak,zh,季节,0.56
+Time Anchors_universal_zh_004,Time Anchors,Symbolism,universal,weak,zh,月份,0.5
+Time Anchors_universal_zh_005,Time Anchors,Symbolism,universal,weak,zh,基本情绪,0.42
+Emotions_universal_en_001,Emotions,Symbolism,universal,weak,en,Positive Feelings,0.28
+Emotions_universal_en_002,Emotions,Symbolism,universal,weak,en,Negative Feelings,0.28
+Emotions_universal_en_003,Emotions,Symbolism,universal,weak,en,Social Emotions,0.48
+Emotions_universal_en_004,Emotions,Symbolism,universal,weak,en,Calm Emotions,0.3
+Emotions_universal_en_005,Emotions,Symbolism,universal,weak,en,Intense Emotions,0.4
+Emotions_universal_zh_001,Emotions,Symbolism,universal,weak,zh,积极情绪,0.64
+Emotions_universal_zh_002,Emotions,Symbolism,universal,weak,zh,消极情绪,0.36
+Emotions_universal_zh_003,Emotions,Symbolism,universal,weak,zh,社会情绪,0.36
+Emotions_universal_zh_004,Emotions,Symbolism,universal,weak,zh,平静情绪,0.52
+Emotions_universal_zh_005,Emotions,Symbolism,universal,weak,zh,强烈情绪,0.46
+Numbers_universal_en_006,Numbers,Symbolism,universal,weak,en,Morning Hours,0.4
+Numbers_universal_en_007,Numbers,Symbolism,universal,weak,en,Time Periods,0.52
+Numbers_universal_en_008,Numbers,Symbolism,universal,weak,en,Clock Times,0.52
+Numbers_universal_en_009,Numbers,Symbolism,universal,weak,en,Holiday Seasons,0.36
+Numbers_universal_en_010,Numbers,Symbolism,universal,weak,en,Year Divisions,0.54
+Numbers_universal_zh_006,Numbers,Symbolism,universal,weak,zh,时段,0.44
+Numbers_universal_zh_007,Numbers,Symbolism,universal,weak,zh,时间单位,0.26
+Numbers_universal_zh_008,Numbers,Symbolism,universal,weak,zh,钟点,0.52
+Numbers_universal_zh_009,Numbers,Symbolism,universal,weak,zh,节气,0.42
+Numbers_universal_zh_010,Numbers,Symbolism,universal,weak,zh,年份划分,0.46
+Animals_universal_en_001,Animals,Biology,universal,weak,en,Farm Animals,0.54
+Animals_universal_en_002,Animals,Biology,universal,weak,en,Wild Animals,0.56
+Animals_universal_en_003,Animals,Biology,universal,weak,en,Pet Animals,0.32
+Animals_universal_en_004,Animals,Biology,universal,weak,en,Sea Animals,0.4
+Animals_universal_en_005,Animals,Biology,universal,weak,en,Flying Animals,0.72
+Animals_universal_zh_001,Animals,Biology,universal,weak,zh,农场动物,0.68
+Animals_universal_zh_002,Animals,Biology,universal,weak,zh,野生动物,0.8
+Animals_universal_zh_003,Animals,Biology,universal,weak,zh,宠物,0.5
+Animals_universal_zh_004,Animals,Biology,universal,weak,zh,海洋动物,0.76
+Animals_universal_zh_005,Animals,Biology,universal,weak,zh,飞行动物,0.32
+Plants_universal_en_001,Plants,Biology,universal,weak,en,Garden Flowers,0.48
+Plants_universal_en_002,Plants,Biology,universal,weak,en,Trees,0.66
+Plants_universal_en_003,Plants,Biology,universal,weak,en,Indoor Plants,0.44
+Plants_universal_en_004,Plants,Biology,universal,weak,en,Wildflowers,0.72
+Plants_universal_en_005,Plants,Biology,universal,weak,en,Shrubs,0.48
+Plants_universal_zh_001,Plants,Biology,universal,weak,zh,花园花卉,0.4
+Plants_universal_zh_002,Plants,Biology,universal,weak,zh,树木,0.46
+Plants_universal_zh_003,Plants,Biology,universal,weak,zh,室内植物,0.38
+Plants_universal_zh_004,Plants,Biology,universal,weak,zh,野花,0.46
+Plants_universal_zh_005,Plants,Biology,universal,weak,zh,灌木,0.5
+Fruits_universal_en_001,Fruits,Biology,universal,weak,en,Common Fruits,0.52
+Fruits_universal_en_002,Fruits,Biology,universal,weak,en,Berries,0.4
+Fruits_universal_en_003,Fruits,Biology,universal,weak,en,Tropical Fruits,0.58
+Fruits_universal_en_004,Fruits,Biology,universal,weak,en,Stone Fruits,0.54
+Fruits_universal_en_005,Fruits,Biology,universal,weak,en,Citrus Fruits,0.52
+Fruits_universal_zh_001,Fruits,Biology,universal,weak,zh,常见水果,0.44
+Fruits_universal_zh_002,Fruits,Biology,universal,weak,zh,浆果,0.52
+Fruits_universal_zh_003,Fruits,Biology,universal,weak,zh,热带水果,0.44
+Fruits_universal_zh_004,Fruits,Biology,universal,weak,zh,核果,0.66
+Fruits_universal_zh_005,Fruits,Biology,universal,weak,zh,柑橘类,0.38
+Body Parts_universal_en_001,Body Parts,Biology,universal,weak,en,Head Parts,0.28
+Body Parts_universal_en_002,Body Parts,Biology,universal,weak,en,Hand Parts,0.42
+Body Parts_universal_en_003,Body Parts,Biology,universal,weak,en,Body Systems,0.58
+Body Parts_universal_en_004,Body Parts,Biology,universal,weak,en,Limbs,0.4
+Body Parts_universal_en_005,Body Parts,Biology,universal,weak,en,External Features,0.64
+Body Parts_universal_zh_001,Body Parts,Biology,universal,weak,zh,头部器官,0.38
+Body Parts_universal_zh_002,Body Parts,Biology,universal,weak,zh,手部,0.38
+Body Parts_universal_zh_003,Body Parts,Biology,universal,weak,zh,内部器官,0.62
+Body Parts_universal_zh_004,Body Parts,Biology,universal,weak,zh,四肢,0.44
+Body Parts_universal_zh_005,Body Parts,Biology,universal,weak,zh,外部特征,0.4
+Senses_universal_en_001,Senses,Biology,universal,weak,en,Five Senses,0.42
+Senses_universal_en_002,Senses,Biology,universal,weak,en,Taste Types,0.46
+Senses_universal_en_003,Senses,Biology,universal,weak,en,Touch Sensations,0.38
+Senses_universal_en_004,Senses,Biology,universal,weak,en,Visual Qualities,0.66
+Senses_universal_en_005,Senses,Biology,universal,weak,en,Sound Qualities,0.48
+Senses_universal_zh_001,Senses,Biology,universal,weak,zh,五种感官,0.44
+Senses_universal_zh_002,Senses,Biology,universal,weak,zh,味觉类型,0.6
+Senses_universal_zh_003,Senses,Biology,universal,weak,zh,触感,0.64
+Senses_universal_zh_004,Senses,Biology,universal,weak,zh,视觉特征,0.56
+Senses_universal_zh_005,Senses,Biology,universal,weak,zh,声音特征,0.26
+Tools_universal_en_001,Tools,Artifacts,universal,weak,en,Hand Tools,0.52
+Tools_universal_en_002,Tools,Artifacts,universal,weak,en,Cutting Tools,0.68
+Tools_universal_en_003,Tools,Artifacts,universal,weak,en,Measuring Tools,0.38
+Tools_universal_en_004,Tools,Artifacts,universal,weak,en,Writing Tools,0.44
+Tools_universal_en_005,Tools,Artifacts,universal,weak,en,Garden Tools,0.46
+Tools_universal_zh_001,Tools,Artifacts,universal,weak,zh,手动工具,0.46
+Tools_universal_zh_002,Tools,Artifacts,universal,weak,zh,切割工具,0.74
+Tools_universal_zh_003,Tools,Artifacts,universal,weak,zh,测量工具,0.34
+Tools_universal_zh_004,Tools,Artifacts,universal,weak,zh,书写工具,0.24
+Tools_universal_zh_005,Tools,Artifacts,universal,weak,zh,园艺工具,0.42
+Clothing_universal_en_001,Clothing,Artifacts,universal,weak,en,Upper Body Clothing,0.16
+Clothing_universal_en_002,Clothing,Artifacts,universal,weak,en,Lower Body Clothing,0.62
+Clothing_universal_en_003,Clothing,Artifacts,universal,weak,en,Footwear,0.56
+Clothing_universal_en_004,Clothing,Artifacts,universal,weak,en,Headwear,0.58
+Clothing_universal_en_005,Clothing,Artifacts,universal,weak,en,Formal Wear,0.36
+Clothing_universal_zh_001,Clothing,Artifacts,universal,weak,zh,上装,0.5
+Clothing_universal_zh_002,Clothing,Artifacts,universal,weak,zh,下装,0.24
+Clothing_universal_zh_003,Clothing,Artifacts,universal,weak,zh,鞋类,0.4
+Clothing_universal_zh_004,Clothing,Artifacts,universal,weak,zh,帽子,0.4
+Clothing_universal_zh_005,Clothing,Artifacts,universal,weak,zh,正装,0.32
+Vehicles_universal_en_001,Vehicles,Artifacts,universal,weak,en,Road Vehicles,0.42
+Vehicles_universal_en_002,Vehicles,Artifacts,universal,weak,en,Two-Wheel Vehicles,0.36
+Vehicles_universal_en_003,Vehicles,Artifacts,universal,weak,en,Water Vehicles,0.64
+Vehicles_universal_en_004,Vehicles,Artifacts,universal,weak,en,Air Vehicles,0.38
+Vehicles_universal_en_005,Vehicles,Artifacts,universal,weak,en,Public Transport,0.48
+Vehicles_universal_zh_001,Vehicles,Artifacts,universal,weak,zh,道路车辆,0.5
+Vehicles_universal_zh_002,Vehicles,Artifacts,universal,weak,zh,两轮车,0.26
+Vehicles_universal_zh_003,Vehicles,Artifacts,universal,weak,zh,水上交通,0.48
+Vehicles_universal_zh_004,Vehicles,Artifacts,universal,weak,zh,空中交通,0.4
+Vehicles_universal_zh_005,Vehicles,Artifacts,universal,weak,zh,公共交通,0.38
+Furniture_universal_en_001,Furniture,Artifacts,universal,weak,en,Living Room Furniture,0.42
+Furniture_universal_en_002,Furniture,Artifacts,universal,weak,en,Bedroom Furniture,0.52
+Furniture_universal_en_003,Furniture,Artifacts,universal,weak,en,Office Furniture,0.66
+Furniture_universal_en_004,Furniture,Artifacts,universal,weak,en,Dining Furniture,0.54
+Furniture_universal_en_005,Furniture,Artifacts,universal,weak,en,Storage Furniture,0.58
+Furniture_universal_zh_001,Furniture,Artifacts,universal,weak,zh,客厅家具,0.28
+Furniture_universal_zh_002,Furniture,Artifacts,universal,weak,zh,卧室家具,0.44
+Furniture_universal_zh_003,Furniture,Artifacts,universal,weak,zh,办公家具,0.54
+Furniture_universal_zh_004,Furniture,Artifacts,universal,weak,zh,餐厅家具,0.36
+Furniture_universal_zh_005,Furniture,Artifacts,universal,weak,zh,收纳家具,0.48
+Rooms_universal_en_001,Rooms,Places,universal,weak,en,Home Rooms,0.3
+Rooms_universal_en_002,Rooms,Places,universal,weak,en,Kitchen Areas,0.74
+Rooms_universal_en_003,Rooms,Places,universal,weak,en,Bathroom Features,0.52
+Rooms_universal_en_004,Rooms,Places,universal,weak,en,Living Room Items,0.4
+Rooms_universal_en_005,Rooms,Places,universal,weak,en,Bedroom Furniture,0.5
+Rooms_universal_zh_001,Rooms,Places,universal,weak,zh,家庭房间,0.78
+Rooms_universal_zh_002,Rooms,Places,universal,weak,zh,厨房区域,0.56
+Rooms_universal_zh_003,Rooms,Places,universal,weak,zh,浴室设施,0.3
+Rooms_universal_zh_004,Rooms,Places,universal,weak,zh,客厅陈设,0.74
+Rooms_universal_zh_005,Rooms,Places,universal,weak,zh,卧室家具,0.56
+Institutions_universal_en_001,Institutions,Places,universal,weak,en,Educational Institutions,0.44
+Institutions_universal_en_002,Institutions,Places,universal,weak,en,Government Buildings,0.54
+Institutions_universal_en_003,Institutions,Places,universal,weak,en,Healthcare Facilities,0.68
+Institutions_universal_en_004,Institutions,Places,universal,weak,en,Cultural Institutions,0.24
+Institutions_universal_en_005,Institutions,Places,universal,weak,en,Financial Institutions,0.48
+Institutions_universal_zh_001,Institutions,Places,universal,weak,zh,教育机构,0.5
+Institutions_universal_zh_002,Institutions,Places,universal,weak,zh,政府建筑,0.42
+Institutions_universal_zh_003,Institutions,Places,universal,weak,zh,医疗机构,0.48
+Institutions_universal_zh_004,Institutions,Places,universal,weak,zh,文化机构,0.42
+Institutions_universal_zh_005,Institutions,Places,universal,weak,zh,金融机构,0.48
+Public Places_us_en_001,Public Places,Places,us,strong,en,US Meeting Spots,0.3
+Public Places_us_en_002,Public Places,Places,us,strong,en,US Shopping Centers,0.4
+Public Places_us_en_003,Public Places,Places,us,strong,en,US Hangout Places,0.4
+Public Places_us_en_004,Public Places,Places,us,strong,en,US Public Squares,0.22
+Public Places_us_en_005,Public Places,Places,us,strong,en,US Dining Venues,0.3
+Public Places_us_en_006,Public Places,Places,us,strong,en,US Entertainment Venues,0.26
+Public Places_us_en_007,Public Places,Places,us,strong,en,US Parks,0.38
+Public Places_us_en_008,Public Places,Places,us,strong,en,US Transport Hubs,0.26
+Public Places_us_en_009,Public Places,Places,us,strong,en,US Recreational Places,0.36
+Public Places_us_en_010,Public Places,Places,us,strong,en,US Nightlife Spots,0.34
+Public Places_china_zh_001,Public Places,Places,china,strong,zh,中国聚会场所,0.4
+Public Places_china_zh_002,Public Places,Places,china,strong,zh,中国购物场所,0.5
+Public Places_china_zh_003,Public Places,Places,china,strong,zh,中国休闲场所,0.24
+Public Places_china_zh_004,Public Places,Places,china,strong,zh,中国公共广场,0.28
+Public Places_china_zh_005,Public Places,Places,china,strong,zh,中国餐饮场所,0.2
+Public Places_china_zh_006,Public Places,Places,china,strong,zh,中国娱乐场所,0.24
+Public Places_china_zh_007,Public Places,Places,china,strong,zh,中国公园,0.34
+Public Places_china_zh_008,Public Places,Places,china,strong,zh,中国交通枢纽,0.42
+Public Places_china_zh_009,Public Places,Places,china,strong,zh,中国休闲去处,0.44
+Public Places_china_zh_010,Public Places,Places,china,strong,zh,中国夜生活,0.24
+Geographic Entities_us_en_001,Geographic Entities,Places,us,strong,en,US Regions,0.52
+Geographic Entities_us_en_002,Geographic Entities,Places,us,strong,en,US Landmarks,0.34
+Geographic Entities_us_en_003,Geographic Entities,Places,us,strong,en,US National Parks,0.3
+Geographic Entities_us_en_004,Geographic Entities,Places,us,strong,en,US Rivers,0.58
+Geographic Entities_us_en_005,Geographic Entities,Places,us,strong,en,US Mountain Ranges,0.34
+Geographic Entities_us_en_006,Geographic Entities,Places,us,strong,en,US Coastlines,0.26
+Geographic Entities_us_en_007,Geographic Entities,Places,us,strong,en,US Climate Zones,0.38
+Geographic Entities_us_en_008,Geographic Entities,Places,us,strong,en,US States by Size,0.46
+Geographic Entities_us_en_009,Geographic Entities,Places,us,strong,en,US Islands,0.26
+Geographic Entities_us_en_010,Geographic Entities,Places,us,strong,en,US Borders,0.3
+Geographic Entities_china_zh_001,Geographic Entities,Places,china,strong,zh,中国地区,0.28
+Geographic Entities_china_zh_002,Geographic Entities,Places,china,strong,zh,中国名胜,0.28
+Geographic Entities_china_zh_003,Geographic Entities,Places,china,strong,zh,中国名山,0.26
+Geographic Entities_china_zh_004,Geographic Entities,Places,china,strong,zh,中国河流,0.26
+Geographic Entities_china_zh_005,Geographic Entities,Places,china,strong,zh,中国湖泊,0.28
+Geographic Entities_china_zh_006,Geographic Entities,Places,china,strong,zh,中国气候带,0.32
+Geographic Entities_china_zh_007,Geographic Entities,Places,china,strong,zh,中国省份,0.3
+Geographic Entities_china_zh_008,Geographic Entities,Places,china,strong,zh,中国城市带,0.34
+Geographic Entities_china_zh_009,Geographic Entities,Places,china,strong,zh,中国海,0.42
+Geographic Entities_china_zh_010,Geographic Entities,Places,china,strong,zh,中国边界,0.24
+Family Roles_universal_en_001,Family Roles,Norms,universal,weak,en,Immediate Family,0.46
+Family Roles_universal_en_002,Family Roles,Norms,universal,weak,en,Extended Family,0.64
+Family Roles_universal_en_003,Family Roles,Norms,universal,weak,en,In-Law Relations,0.44
+Family Roles_universal_en_004,Family Roles,Norms,universal,weak,en,Parent-Child Roles,0.66
+Family Roles_universal_en_005,Family Roles,Norms,universal,weak,en,Generational Roles,0.44
+Family Roles_universal_zh_001,Family Roles,Norms,universal,weak,zh,直系亲属,0.62
+Family Roles_universal_zh_002,Family Roles,Norms,universal,weak,zh,旁系亲属,0.56
+Family Roles_universal_zh_003,Family Roles,Norms,universal,weak,zh,姻亲关系,0.52
+Family Roles_universal_zh_004,Family Roles,Norms,universal,weak,zh,亲子角色,0.46
+Family Roles_universal_zh_005,Family Roles,Norms,universal,weak,zh,世代角色,0.46
+Occupations_universal_en_001,Occupations,Norms,universal,weak,en,Medical Professions,0.34
+Occupations_universal_en_002,Occupations,Norms,universal,weak,en,Education Professions,0.58
+Occupations_universal_en_003,Occupations,Norms,universal,weak,en,Tech Professions,0.46
+Occupations_universal_en_004,Occupations,Norms,universal,weak,en,Service Professions,0.64
+Occupations_universal_en_005,Occupations,Norms,universal,weak,en,Creative Professions,0.44
+Occupations_universal_zh_001,Occupations,Norms,universal,weak,zh,医疗职业,0.28
+Occupations_universal_zh_002,Occupations,Norms,universal,weak,zh,教育职业,0.42
+Occupations_universal_zh_003,Occupations,Norms,universal,weak,zh,科技职业,0.68
+Occupations_universal_zh_004,Occupations,Norms,universal,weak,zh,服务职业,0.26
+Occupations_universal_zh_005,Occupations,Norms,universal,weak,zh,创意职业,0.62
+Social Norms_us_en_001,Social Norms,Norms,us,strong,en,US Table Manners,0.28
+Social Norms_us_en_002,Social Norms,Norms,us,strong,en,US Greetings,0.2
+Social Norms_us_en_003,Social Norms,Norms,us,strong,en,US Dining Etiquette,0.3
+Social Norms_us_en_004,Social Norms,Norms,us,strong,en,US Public Behavior,0.22
+Social Norms_us_en_005,Social Norms,Norms,us,strong,en,US Gift Customs,0.32
+Social Norms_us_en_006,Social Norms,Norms,us,strong,en,US Meeting Norms,0.38
+Social Norms_us_en_007,Social Norms,Norms,us,strong,en,US Dress Codes,0.28
+Social Norms_us_en_008,Social Norms,Norms,us,strong,en,US Conversation Norms,0.2
+Social Norms_us_en_009,Social Norms,Norms,us,strong,en,US Holiday Customs,0.28
+Social Norms_us_en_010,Social Norms,Norms,us,strong,en,US Wedding Customs,0.42
+Social Norms_china_zh_001,Social Norms,Norms,china,strong,zh,中国餐桌礼仪,0.36
+Social Norms_china_zh_002,Social Norms,Norms,china,strong,zh,中国问候方式,0.28
+Social Norms_china_zh_003,Social Norms,Norms,china,strong,zh,中国用餐礼仪,0.38
+Social Norms_china_zh_004,Social Norms,Norms,china,strong,zh,中国公共行为,0.32
+Social Norms_china_zh_005,Social Norms,Norms,china,strong,zh,中国送礼习俗,0.38
+Social Norms_china_zh_006,Social Norms,Norms,china,strong,zh,中国见面礼仪,0.24
+Social Norms_china_zh_007,Social Norms,Norms,china,strong,zh,中国着装规范,0.28
+Social Norms_china_zh_008,Social Norms,Norms,china,strong,zh,中国社交规范,0.28
+Social Norms_china_zh_009,Social Norms,Norms,china,strong,zh,中国节日习俗,0.3
+Social Norms_china_zh_010,Social Norms,Norms,china,strong,zh,中国婚嫁习俗,0.28
+Holidays_us_en_001,Holidays,Culture,us,strong,en,US Federal Holidays,0.24
+Holidays_us_en_002,Holidays,Culture,us,strong,en,US Celebrations,0.42
+Holidays_us_en_003,Holidays,Culture,us,strong,en,US Family Holidays,0.4
+Holidays_us_en_004,Holidays,Culture,us,strong,en,US Summer Holidays,0.26
+Holidays_us_en_005,Holidays,Culture,us,strong,en,US Winter Holidays,0.3
+Holidays_china_zh_001,Holidays,Culture,china,strong,zh,中国法定假日,0.38
+Holidays_china_zh_002,Holidays,Culture,china,strong,zh,中国传统节日,0.28
+Holidays_china_zh_003,Holidays,Culture,china,strong,zh,中国家庭节日,0.3
+Holidays_china_zh_004,Holidays,Culture,china,strong,zh,中国现代节日,0.38
+Holidays_china_zh_005,Holidays,Culture,china,strong,zh,中国节气节日,0.28
+Food_us_en_001,Food,Culture,us,strong,en,American Breakfast,0.42
+Food_us_en_002,Food,Culture,us,strong,en,American Fast Food,0.38
+Food_us_en_003,Food,Culture,us,strong,en,American Dinner,0.24
+Food_us_en_004,Food,Culture,us,strong,en,American Snacks,0.68
+Food_us_en_005,Food,Culture,us,strong,en,American Desserts,0.26
+Food_us_en_006,Food,Culture,us,strong,en,American Comfort Food,0.3
+Food_us_en_007,Food,Culture,us,strong,en,American Side Dishes,0.36
+Food_us_en_008,Food,Culture,us,strong,en,American BBQ,0.34
+Food_us_en_009,Food,Culture,us,strong,en,American Sandwiches,0.32
+Food_us_en_010,Food,Culture,us,strong,en,American Holiday Food,0.56
+Food_china_zh_001,Food,Culture,china,strong,zh,中国早餐,0.34
+Food_china_zh_002,Food,Culture,china,strong,zh,中国快餐,0.3
+Food_china_zh_003,Food,Culture,china,strong,zh,中国家常菜,0.42
+Food_china_zh_004,Food,Culture,china,strong,zh,中国小吃,0.28
+Food_china_zh_005,Food,Culture,china,strong,zh,中国甜点,0.34
+Food_china_zh_006,Food,Culture,china,strong,zh,中国主食,0.2
+Food_china_zh_007,Food,Culture,china,strong,zh,中国汤类,0.22
+Food_china_zh_008,Food,Culture,china,strong,zh,中国火锅食材,0.34
+Food_china_zh_009,Food,Culture,china,strong,zh,中国面食,0.26
+Food_china_zh_010,Food,Culture,china,strong,zh,中国节日食物,0.54
+Drinks_us_en_001,Drinks,Culture,us,strong,en,American Breakfast Drinks,0.2
+Drinks_us_en_002,Drinks,Culture,us,strong,en,American Soft Drinks,0.3
+Drinks_us_en_003,Drinks,Culture,us,strong,en,American Hot Drinks,0.36
+Drinks_us_en_004,Drinks,Culture,us,strong,en,American Cocktails,0.34
+Drinks_us_en_005,Drinks,Culture,us,strong,en,American Party Drinks,0.38
+Drinks_china_zh_001,Drinks,Culture,china,strong,zh,中国早餐饮品,0.34
+Drinks_china_zh_002,Drinks,Culture,china,strong,zh,中国茶类,0.24
+Drinks_china_zh_003,Drinks,Culture,china,strong,zh,中国热饮,0.3
+Drinks_china_zh_004,Drinks,Culture,china,strong,zh,中国酒类,0.28
+Drinks_china_zh_005,Drinks,Culture,china,strong,zh,中国冷饮,0.26
+Famous People_us_en_001,Famous People,Culture,us,strong,en,US Presidents,0.24
+Famous People_us_en_002,Famous People,Culture,us,strong,en,US Scientists,0.3
+Famous People_us_en_003,Famous People,Culture,us,strong,en,US Musicians,0.36
+Famous People_us_en_004,Famous People,Culture,us,strong,en,US Actors,0.2
+Famous People_us_en_005,Famous People,Culture,us,strong,en,US Athletes,0.22
+Famous People_us_en_006,Famous People,Culture,us,strong,en,US Business Leaders,0.2
+Famous People_us_en_007,Famous People,Culture,us,strong,en,US Writers,0.34
+Famous People_us_en_008,Famous People,Culture,us,strong,en,US Historical Figures,0.2
+Famous People_us_en_009,Famous People,Culture,us,strong,en,US Directors,0.4
+Famous People_us_en_010,Famous People,Culture,us,strong,en,US Tech Founders,0.26
+Famous People_china_zh_001,Famous People,Culture,china,strong,zh,中国古代帝王,0.38
+Famous People_china_zh_002,Famous People,Culture,china,strong,zh,中国科学家,0.4
+Famous People_china_zh_003,Famous People,Culture,china,strong,zh,中国歌手,0.32
+Famous People_china_zh_004,Famous People,Culture,china,strong,zh,中国演员,0.28
+Famous People_china_zh_005,Famous People,Culture,china,strong,zh,中国运动员,0.34
+Famous People_china_zh_006,Famous People,Culture,china,strong,zh,中国企业家,0.28
+Famous People_china_zh_007,Famous People,Culture,china,strong,zh,中国作家,0.56
+Famous People_china_zh_008,Famous People,Culture,china,strong,zh,中国历史人物,0.26
+Famous People_china_zh_009,Famous People,Culture,china,strong,zh,中国导演,0.36
+Famous People_china_zh_010,Famous People,Culture,china,strong,zh,中国互联网人物,0.3
+Media_us_en_001,Media,Culture,us,strong,en,US Social Media,0.4
+Media_us_en_002,Media,Culture,us,strong,en,US TV Shows,0.26
+Media_us_en_003,Media,Culture,us,strong,en,US Movies,0.2
+Media_us_en_004,Media,Culture,us,strong,en,US News Sources,0.28
+Media_us_en_005,Media,Culture,us,strong,en,US Streaming Services,0.38
+Media_us_en_006,Media,Culture,us,strong,en,US Music Platforms,0.42
+Media_us_en_007,Media,Culture,us,strong,en,US Video Games,0.32
+Media_us_en_008,Media,Culture,us,strong,en,US Cartoons,0.4
+Media_us_en_009,Media,Culture,us,strong,en,US Talk Shows,0.32
+Media_us_en_010,Media,Culture,us,strong,en,US Podcast Genres,0.34
+Media_china_zh_001,Media,Culture,china,strong,zh,中国社交媒体,0.36
+Media_china_zh_002,Media,Culture,china,strong,zh,中国电视剧,0.48
+Media_china_zh_003,Media,Culture,china,strong,zh,中国电影,0.36
+Media_china_zh_004,Media,Culture,china,strong,zh,中国新闻平台,0.42
+Media_china_zh_005,Media,Culture,china,strong,zh,中国视频平台,0.44
+Media_china_zh_006,Media,Culture,china,strong,zh,中国音乐平台,0.42
+Media_china_zh_007,Media,Culture,china,strong,zh,中国游戏,0.28
+Media_china_zh_008,Media,Culture,china,strong,zh,中国动漫,0.26
+Media_china_zh_009,Media,Culture,china,strong,zh,中国综艺节目,0.38
+Media_china_zh_010,Media,Culture,china,strong,zh,中国短视频平台,0.3
+Brands_us_en_001,Brands,Culture,us,strong,en,US Tech Brands,0.26
+Brands_us_en_002,Brands,Culture,us,strong,en,US Car Brands,0.32
+Brands_us_en_003,Brands,Culture,us,strong,en,US Fast Food Brands,0.36
+Brands_us_en_004,Brands,Culture,us,strong,en,US Soda Brands,0.38
+Brands_us_en_005,Brands,Culture,us,strong,en,US Clothing Brands,0.24
+Brands_us_en_006,Brands,Culture,us,strong,en,US Coffee Brands,0.24
+Brands_us_en_007,Brands,Culture,us,strong,en,US Phone Brands,0.32
+Brands_us_en_008,Brands,Culture,us,strong,en,US Sports Brands,0.38
+Brands_us_en_009,Brands,Culture,us,strong,en,US Retail Brands,0.3
+Brands_us_en_010,Brands,Culture,us,strong,en,US Snack Brands,0.34
+Brands_china_zh_001,Brands,Culture,china,strong,zh,中国科技品牌,0.48
+Brands_china_zh_002,Brands,Culture,china,strong,zh,中国汽车品牌,0.42
+Brands_china_zh_003,Brands,Culture,china,strong,zh,中国餐饮品牌,0.3
+Brands_china_zh_004,Brands,Culture,china,strong,zh,中国饮料品牌,0.3
+Brands_china_zh_005,Brands,Culture,china,strong,zh,中国服装品牌,0.32
+Brands_china_zh_006,Brands,Culture,china,strong,zh,中国茶饮品牌,0.24
+Brands_china_zh_007,Brands,Culture,china,strong,zh,中国手机品牌,0.26
+Brands_china_zh_008,Brands,Culture,china,strong,zh,中国运动品牌,0.42
+Brands_china_zh_009,Brands,Culture,china,strong,zh,中国电商平台,0.2
+Brands_china_zh_010,Brands,Culture,china,strong,zh,中国食品品牌,0.24
+Digital Platforms_us_en_001,Digital Platforms,Digital,us,strong,en,US Search Engines,0.4
+Digital Platforms_us_en_002,Digital Platforms,Digital,us,strong,en,US Email Providers,0.26
+Digital Platforms_us_en_003,Digital Platforms,Digital,us,strong,en,US Cloud Services,0.44
+Digital Platforms_us_en_004,Digital Platforms,Digital,us,strong,en,US Payment Platforms,0.4
+Digital Platforms_us_en_005,Digital Platforms,Digital,us,strong,en,US E-commerce Platforms,0.26
+Digital Platforms_us_en_006,Digital Platforms,Digital,us,strong,en,US Ride-sharing Apps,0.44
+Digital Platforms_us_en_007,Digital Platforms,Digital,us,strong,en,US Food Delivery,0.26
+Digital Platforms_us_en_008,Digital Platforms,Digital,us,strong,en,US Messaging Apps,0.36
+Digital Platforms_us_en_009,Digital Platforms,Digital,us,strong,en,US Productivity Tools,0.24
+Digital Platforms_us_en_010,Digital Platforms,Digital,us,strong,en,US Dating Apps,0.22
+Digital Platforms_china_zh_001,Digital Platforms,Digital,china,strong,zh,中国搜索引擎,0.24
+Digital Platforms_china_zh_002,Digital Platforms,Digital,china,strong,zh,中国邮箱服务,0.24
+Digital Platforms_china_zh_003,Digital Platforms,Digital,china,strong,zh,中国云服务,0.26
+Digital Platforms_china_zh_004,Digital Platforms,Digital,china,strong,zh,中国支付平台,0.4
+Digital Platforms_china_zh_005,Digital Platforms,Digital,china,strong,zh,中国电商平台,0.3
+Digital Platforms_china_zh_006,Digital Platforms,Digital,china,strong,zh,中国出行平台,0.28
+Digital Platforms_china_zh_007,Digital Platforms,Digital,china,strong,zh,中国外卖平台,0.3
+Digital Platforms_china_zh_008,Digital Platforms,Digital,china,strong,zh,中国聊天工具,0.38
+Digital Platforms_china_zh_009,Digital Platforms,Digital,china,strong,zh,中国办公工具,0.32
+Digital Platforms_china_zh_010,Digital Platforms,Digital,china,strong,zh,中国社交平台,0.42
+Internet Culture_us_en_001,Internet Culture,Digital,us,strong,en,US Meme Formats,0.44
+Internet Culture_us_en_002,Internet Culture,Digital,us,strong,en,US Online Slang,0.26
+Internet Culture_us_en_003,Internet Culture,Digital,us,strong,en,US Viral Challenges,0.32
+Internet Culture_us_en_004,Internet Culture,Digital,us,strong,en,US Online Communities,0.2
+Internet Culture_us_en_005,Internet Culture,Digital,us,strong,en,US Streaming Culture,0.24
+Internet Culture_us_en_006,Internet Culture,Digital,us,strong,en,US Hashtag Trends,0.56
+Internet Culture_us_en_007,Internet Culture,Digital,us,strong,en,US Online Gaming Terms,0.26
+Internet Culture_us_en_008,Internet Culture,Digital,us,strong,en,US Tech Buzzwords,0.3
+Internet Culture_us_en_009,Internet Culture,Digital,us,strong,en,US Emoji Usage,0.3
+Internet Culture_us_en_010,Internet Culture,Digital,us,strong,en,US Online Habits,0.32
+Internet Culture_china_zh_001,Internet Culture,Digital,china,strong,zh,中国网络梗,0.3
+Internet Culture_china_zh_002,Internet Culture,Digital,china,strong,zh,中国网络用语,0.26
+Internet Culture_china_zh_003,Internet Culture,Digital,china,strong,zh,中国网络挑战,0.5
+Internet Culture_china_zh_004,Internet Culture,Digital,china,strong,zh,中国网络社区,0.3
+Internet Culture_china_zh_005,Internet Culture,Digital,china,strong,zh,中国直播文化,0.18
+Internet Culture_china_zh_006,Internet Culture,Digital,china,strong,zh,中国热搜话题,0.2
+Internet Culture_china_zh_007,Internet Culture,Digital,china,strong,zh,中国游戏用语,0.24
+Internet Culture_china_zh_008,Internet Culture,Digital,china,strong,zh,中国科技热词,0.24
+Internet Culture_china_zh_009,Internet Culture,Digital,china,strong,zh,中国表情包,0.22
+Internet Culture_china_zh_010,Internet Culture,Digital,china,strong,zh,中国网络习惯,0.34

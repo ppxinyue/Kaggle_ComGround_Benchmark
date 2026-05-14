@@ -1,0 +1,41 @@
+id,context,speaker_utterance,question,option_a,option_b,option_c,correct_answer
+1,"a striped shirt, a plain shirt, a striped jacket",I like the striped one.,What does A most likely refer to?,striped shirt,plain shirt ,striped jacket ,A
+2,"a wooden chair, a metal chair, a wooden table",I’ll take the wooden one.,What does A most likely refer to?,wooden table,metal chair,wooden chair,C
+3,"a small suitcase, a large suitcase, a small backpack",I’m going with the small one.,What does A most likely refer to?,large suitcase,small backpack,small suitcase,C
+4,"a blue notebook, a red notebook, a blue folder",I need the blue one.,What does A most likely refer to?,blue folder,blue notebook,red notebook,B
+5,"a glass bottle, a plastic bottle, a glass cup",I’ll grab the glass one.,What does A most likely refer to?,glass cup,glass bottle,plastic bottle,B
+6,"a round plate, a square plate, a round tray",I’ll use the round one.,What does A most likely refer to?,round plate,round tray,square plate,A
+7,"a black pen, a blue pen, a black marker",I’ll take the black one.,What does A most likely refer to?,blue pen,black pen,black marker,B
+8,"a tall glass, a short glass, a tall bottle",I want the tall one.,What does A most likely refer to?,tall glass,short glass,tall bottle,A
+9,"a heavy book, a light book, a heavy box",I’ll pick the heavy one.,What does A most likely refer to?,light book,heavy book,heavy box,B
+10,"a soft pillow, a firm pillow, a soft blanket",I prefer the soft one.,What does A most likely refer to?,firm pillow,soft pillow,soft blanket,B
+11,"a silver spoon, a wooden spoon, a silver fork",Pass me the silver one.,What does A most likely refer to?,wooden spoon,silver spoon,silver fork,B
+12,"a red mug, a white mug, a red bowl",I’ll take the red one.,What does A most likely refer to?,white mug,red mug,red bowl,B
+13,"a thick book, a thin book, a thick folder",I need the thick one.,What does A most likely refer to?,thin book,thick book,thick folder,B
+14,"a green towel, a blue towel, a green mat",Use the green one.,What does A most likely refer to?,green mat,blue towel,green towel,C
+15,"a long candle, a short candle, a long ruler",I’ll take the long one.,What does A most likely refer to?,short candle,long ruler,long candle,C
+16,"a white plate, a black plate, a white tray",Bring me the white one.,What does A most likely refer to?,white plate,black plate,white tray,A
+17,"a striped sock, a plain sock, a striped scarf",I want the striped one.,What does A most likely refer to?,plain sock,striped scarf,striped sock,C
+18,"a clear jar, a blue jar, a clear cup",I’ll use the clear one.,What does A most likely refer to?,blue jar,clear jar,clear cup,B
+19,"a square pillow, a round pillow, a square cushion",Pick the square one.,What does A most likely refer to?,round pillow,square cushion,square pillow,C
+20,"a leather wallet, a cloth wallet, a leather pouch",I’ll take the leather one.,What does A most likely refer to?,cloth wallet,leather wallet,leather pouch,B
+21,"a large suitcase, a small suitcase, a large backpack",I’ll take the suitcase.,What does A most likely refer to?,large backpack,large suitcase,small suitcase,B
+22,"a red apple, a green apple, a red peach",I’ll take the apple.,What does A most likely refer to?,red peach,red apple,green apple,B
+23,"a tall glass, a short glass, a tall bottle",I’ll take the glass.,What does A most likely refer to?,tall glass,short glass,tall bottle,A
+24,"a blue notebook, a red notebook, a blue folder",I need the notebook.,What does A most likely refer to?,blue notebook,red notebook,blue folder,A
+25,"a thick book, a thin book, a thick folder",I’ll take the book.,What does A most likely refer to?,thick folder,thick book,thin book,B
+26,"a black pen, a blue pen, a black marker",I want the pen.,What does A most likely refer to?,black pen,black marker,blue pen,A
+27,"a wooden chair, a metal chair, a wooden table",I’ll take the chair.,What does A most likely refer to?,metal chair,wooden chair,wooden table,B
+28,"a round plate, a square plate, a round tray",I’ll use the plate.,What does A most likely refer to?,round plate,square plate,round tray,A
+29,"a silver spoon, a wooden spoon, a silver fork",Pass me the spoon.,What does A most likely refer to?,silver fork,silver spoon,wooden spoon,B
+30,"a clear jar, a blue jar, a clear cup",I’ll take the jar.,What does A most likely refer to?,clear jar,blue jar,clear cup,A
+31,"a striped shirt, a plain shirt, a striped jacket",I want the shirt.,What does A most likely refer to?,striped shirt,striped jacket,plain shirt,A
+32,"a soft pillow, a firm pillow, a soft blanket",I’ll take the pillow.,What does A most likely refer to?,soft blanket,firm pillow,soft pillow,C
+33,"a white plate, a black plate, a white tray",I need the plate.,What does A most likely refer to?,white tray,black plate,white plate,C
+34,"a long candle, a short candle, a long ruler",I’ll grab the candle.,What does A most likely refer to?,long candle,long ruler,short candle,A
+35,"a green towel, a blue towel, a green mat",I’ll take the towel.,What does A most likely refer to?,green towel,green mat,blue towel,A
+36,"a square table, a round table, a square desk",I want the table.,What does A most likely refer to?,square table,round table,square desk,A
+37,"a leather wallet, a cloth wallet, a leather pouch",I’ll take the wallet.,What does A most likely refer to?,cloth wallet,leather wallet,leather pouch,B
+38,"a large pizza, a medium pizza, a large cake",I’ll take the pizza.,What does A most likely refer to?,large cake,medium pizza,large pizza,C
+39,"a metal spoon, a plastic spoon, a metal fork",Pass me the spoon.,What does A most likely refer to?,metal fork,plastic spoon,metal spoon,C
+40,"a clear bottle, a colored bottle, a clear glass",I’ll take the bottle.,What does A most likely refer to?,clear glass,colored bottle,clear bottle,C

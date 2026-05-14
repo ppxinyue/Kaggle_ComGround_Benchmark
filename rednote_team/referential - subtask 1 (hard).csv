@@ -1,0 +1,21 @@
+id,context,speaker_utterance,question,option_a,option_b,option_c,preferred_answer
+1,"an apple, a peach, a watermelon",I like the fruit that is more juicy.,What does A most likely refer to?,apple,peach,watermelon,C
+2,"a sofa, a small armchair, a wooden bench  ",I’d go for the one that’s more comfortable to relax on.,What does A most likely refer to?,sofa,armchair,wooden bench,A
+3,"a small notebook, a large notebook, a tablet",I want something more convenient for quick notes.,What does A most likely refer to?,small notebook,large notebook,tablet,A
+4," a slim laptop, a compact tablet, a lightweight e-reader ",I prefer something I can comfortably use for long reading without straining my eyes.,What does A most likely refer to?,laptop,tablet ,e-reader,C
+5,"a pen, a pencil, a marker  ",I prefer the writing tool that comes with more colors.,What does A most likely refer to?,pen,pencil ,marker,C
+6," a ceramic plate, a paper plate, a plastic plate  ",I’d go with something I’d normally use at home for meals.,What does A most likely refer to?,ceramic plate,plastic plate,paper plate,A
+7,"a full-size keyboard, a compact keyboard, a touchscreen device",I need something that allows fast and accurate typing,What does A most likely refer to?,full-size keyboard,compact keyboard,touchscreen devicce,A
+8,"a frying pan, a cooking pot, a baking tray ",I’d pick the one I’d most likely use if I wanted something quickly on the stove.,What does A most likely refer to?,frying pan,baking tray,cooking pot,B
+9,"a tote bag, a handbag, a backpack",I need something that can carry my laptop and other items comfortably throughout the day.,What does A most likely refer to?,tote bag,handbag,backpack,C
+10,"a coat, a denim jacket, a wool cardigan",I’d pick something that keeps me warm when it gets really cold.,What does A most likely refer to?,coat ,denim jacket ,wool cardigan,C
+11,"a cup of coffee, a sugary soda, a cup of black tea",I’d go for the one that helps me stay alert,What does A most likely refer to?,coffee,soda,black tea,A
+12,"running shoes, sneakers, sandals",I’d go for the pair that feels more comfortable for walking long distances.,What does A most likely refer to?,running shoes,sneakers,sandals,B
+13,"a bowl of rice, a sandwich, a small salad",I’d go for the one that keeps me full longer.,What does A most likely refer to?,rice ,sandwhich,salad,A
+14,"a mug, a tea cup, a gaiwan",I’d go for the one that brings out the tea drinking experience more.,What does A most likely refer to?,mug,tea cup,gaiwan,C
+15,"a pair of studio headphones, a pair of earbuds, a speaker",I’d go for the option that lets me hear more detail in the sound.,What does A most likely refer to?,studio headphones,earbuds,speaker,A
+16,"a chef’s knife, a butter knife, a pair of scissors",I’d choose the one that works better for cutting through something firm.,What does A most likely refer to?,chef's knife,butter knife,scissors,A
+17,"a triangular structure, a square structure, a circular structure",I’d choose the one that’s less likely to deform when force is applied.,What does A most likely refer to?,triangular structure,square structure,circular structure,A
+18,"a flashlight, a desk lamp, a ceiling light",I’d pick the one that lights up a larger area.,What does A most likely refer to?,flashlight,desk lamp ,ceiling light,C
+19,"a reusable container, a disposable box, a plastic bag",I’d go for the one that works better if I need to use it many times.,What does A most likely refer to?,reusable container,disposable box,plastic bag,A
+20,"a sponge, a cloth towel, a plastic sheet",I’d pick the one that handles spills more effectively.,What does A most likely refer to?,cloth towel,sponge,plastic sheet,B
